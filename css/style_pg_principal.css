@@ -1,6 +1,6 @@
 /*Fundo da página*/
 body{
-    background-color: grey;
+    background-color: Gainsboro;
 }
 
 /*estilo de borda de tabela*/
@@ -10,6 +10,14 @@ th, td{
 }
 
 table{
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+/*estilo de botões*/
+#estoque, #pedidos, #sair{
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    border-color: black;
 }
 
