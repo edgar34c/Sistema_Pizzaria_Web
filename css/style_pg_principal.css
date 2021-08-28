@@ -4,9 +4,12 @@ body{
 }
 
 /*estilo de borda de tabela*/
-table,th, td{
+th, td{
     border: 1px solid black;
     padding: 5px;
+}
+
+table{
     margin-top: 10px;
 }
 
