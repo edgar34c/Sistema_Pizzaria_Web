@@ -11,7 +11,6 @@ btn.addEventListener("click", function(e){
     e.preventDefault();
     //verificação de usuário e senha
     if(usuario.value === user && senha.value === pass){
-        alert("Usuário e senha correto")
         window.location.href = "pagina_principal.html"
     }else{
         alert("Usuário ou senha incorreto")
