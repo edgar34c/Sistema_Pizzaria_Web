@@ -6,11 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Pizzaria</title>
     <script src="js/script_pg_principal.js" defer></script>
+    <link rel="stylesheet" href="css/style_pg_principal.css">
 </head>
 <body>
-    <button>Estoque</button>
-    <button>Pedidos</button>
+    <!--Botões de menu-->
+    <button id="estoque">Estoque</button>
+    <button id="pedidos">Pedidos</button>
     <button id="sair">Sair</button>
+
+    <!--Tabela pedidos-->
+    <table hidden id="tbl_pedidos">
+        <!--Titulos-->
+        <tr>
+            <th>Cliente</th>
+            <th>Pedido</th>
+            <th>Endereço</th>
+            <th>Valor</th>
+        </tr>
+
+        <!--Itens-->
+        <tr>
+            <td>João</td>
+            <td>1 Mussarela, 1 Coca</td>
+            <td>Rua Indio Nº10</td>
+            <td>R$: 30,00</td>
+        </tr>
+    </table>
+
+    <!--tabela Estoque-->
+    <table id="tbl_estoque" hidden>
+        <tr>
+            <th>teste</th>
+        </tr>
+    </table>
     
 </body>
 </html>

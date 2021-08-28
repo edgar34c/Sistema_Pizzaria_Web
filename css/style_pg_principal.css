@@ -1,0 +1,12 @@
+/*Fundo da página*/
+body{
+    background-color: grey;
+}
+
+/*estilo de borda de tabela*/
+table,th, td{
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+
