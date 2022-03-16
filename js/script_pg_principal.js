@@ -9,7 +9,7 @@ var body = document.getElementsByTagName("body");
 //volta para pagina de login
 sair.addEventListener("click", function(e){
     e.preventDefault();
-    window.location.href = "../login.html";
+    window.location.href = "login.html";
 });
 
 //Função botão pedidos: exibe pedidos e oculta estoque
